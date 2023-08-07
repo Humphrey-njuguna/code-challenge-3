@@ -1,0 +1,40 @@
+section{
+    text-align: center;
+    align-items: center;
+    background-color: greenyellow;
+}
+
+h1{
+    color: red;
+}
+#body{
+    display: flex;
+    flex-direction: column;
+
+}
+#menu{
+    width: 20%;
+}
+#displayArea{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+
+}
+#displayArea img {
+    height: 400px;
+   
+}
+#movieData li {
+    list-style: none;
+    margin-top: 20px;
+
+}
+#mymovie {
+    width: 800px;
+    height: 400px;
+}
+#myMovie img{
+    width: 600px;
+    height: 350px;
+}
